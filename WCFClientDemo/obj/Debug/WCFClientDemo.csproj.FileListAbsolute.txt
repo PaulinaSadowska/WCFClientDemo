@@ -1,1 +1,6 @@
 C:\Users\arasz\Desktop\WCFTutorial\program\WCFClientDemo\WCFClientDemo\bin\Debug\WCFClientDemo.exe.config
+C:\Users\arasz\Desktop\WCFTutorial\program\WCFClientDemo\WCFClientDemo\bin\Debug\WCFClientDemo.exe
+C:\Users\arasz\Desktop\WCFTutorial\program\WCFClientDemo\WCFClientDemo\bin\Debug\WCFClientDemo.pdb
+C:\Users\arasz\Desktop\WCFTutorial\program\WCFClientDemo\WCFClientDemo\obj\Debug\WCFClientDemo.csprojResolveAssemblyReference.cache
+C:\Users\arasz\Desktop\WCFTutorial\program\WCFClientDemo\WCFClientDemo\obj\Debug\WCFClientDemo.exe
+C:\Users\arasz\Desktop\WCFTutorial\program\WCFClientDemo\WCFClientDemo\obj\Debug\WCFClientDemo.pdb

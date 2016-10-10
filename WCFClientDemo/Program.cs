@@ -1,15 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WCFClientDemo.UserServiceReference;
 
 namespace WCFClientDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            ServiceClient client = new ServiceClient();
+            Console.WriteLine(client.PrintUserData("Paulina", "Sadowska", 23));
+            UserData user = new UserData
+            {
+                firstName = "Rafal",
+                surname = "Araszkiewicz",
+                age = 24
+            };
+            Console.WriteLine(client.PrintUserDataObject(user));
+            Console.ReadKey();
+            client.Close();
         }
     }
 }
