@@ -17,14 +17,16 @@ namespace WCFClientDemo
                 age = 24
             };
             Console.WriteLine(client.PrintUserDataObject(user));
+
             try
             {
                 Console.WriteLine(client.PrintUserDataObject(null));
             }
             catch (FaultException exception)
             {
-                Console.WriteLine("ERROR " + exception.Message);
+                Console.WriteLine("ERROR: " + exception.Message);
             }
+
             try
             {
                 user.firstName = null;
@@ -32,8 +34,9 @@ namespace WCFClientDemo
             }
             catch (FaultException exception)
             {
-                Console.WriteLine("ERROR " + exception.Message);
+                Console.WriteLine("ERROR: " + exception.Message);
             }
+
             Console.ReadKey();
             client.Close();
         }
