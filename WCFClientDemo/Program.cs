@@ -16,7 +16,7 @@ namespace WCFClientDemo
                 age = 24
             };
             Console.WriteLine(client.PrintUserDataObject(user));
-            Console.WriteLine(client.PrintUserDataObject(null));
+            // Console.WriteLine(client.PrintUserDataObject(null));
             user.firstName = null;
             Console.WriteLine(client.PrintUserDataObject(user));
             Console.ReadKey();
